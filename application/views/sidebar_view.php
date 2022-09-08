@@ -22,7 +22,7 @@
           <p><?php echo $d->nama;?></p>
           <p><?= $d->level;?>
           </p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <a href="#"><i class="fa fa-circle text-danger"></i> Online</a>
         </div>
         <br/>
         <br/>
@@ -35,7 +35,7 @@
             <center> <li class="header">MENU</li> </center>
             <li class="<?php if($this->uri->uri_string() == 'dashboard'){ echo 'active';}?>">
                 <a href="<?php echo base_url('dashboard');?>">
-                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                    <i class="fa fa-dashboard"></i><span>Dashboard</span>
                 </a>
             </li>
             <li class="<?php if($this->uri->uri_string() == 'user'){ echo 'active';}?>

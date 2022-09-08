@@ -6,26 +6,22 @@
 	$kat = $this->M_Admin->get_tableid_edit('tbl_kategori','id_kategori',$idkat);
 	$rak = $this->M_Admin->get_tableid_edit('tbl_rak','id_rak',$idrak);
 ?>
-<div class="content-wrapper">
+<div class="">
   <section class="content-header">
     <h1>
       <i class="fa fa-book" style="color:green"> </i>  <?= $title_web;?>
     </h1>
-    <ol class="breadcrumb">
-			<li><a href="<?php echo base_url('dashboard');?>"><i class="fa fa-dashboard"></i>&nbsp; Dashboard</a></li>
-			<li class="active"><i class="fa fa-book"></i>&nbsp;  <?= $title_web;?></li>
-    </ol>
   </section>
-  <section class="content">
+  <section class="">
 	<div class="row">
 	    <div class="col-md-12">
-	        <div class="box box-primary">
-                <div class="box-header with-border">
+	        <div class="">
+                <div class="box-header">
 					<h4><?= $buku->title;?></h4>
                 </div>
 			    <!-- /.box-header -->
 			    <div class="box-body">
-					<table class="table table-striped table-bordered">
+					<table class="table">
 						<tr>
 							<td style="width:20%">ISBN</td>
 							<td><?= $buku->isbn;?></td>

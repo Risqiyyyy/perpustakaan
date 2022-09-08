@@ -61,7 +61,7 @@
 									</tr>
 								</table>
 							</div>
-							<div class="col-sm-7">
+							<div class="col-sm-6">
 								<table class="table">
 									<tr style="background:white">
 										<td colspan="3">Pinjam Buku</td>
@@ -101,17 +101,17 @@
     </div>
 </section>
 </div>
+<!-- modal cos -->
+
+<!-- end modal -->
 <!--modal import -->
-<div class="modal fade" id="TableBuku">
-<div class="modal-dialog" style="width:80%;">
+<div class="modal" id="TableBuku">
+<div class="modal-dialog" style="width:150%;">
 <div class="modal-content">
 <div class="modal-header">
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span></button>
-<h4 class="modal-title">Add Buku</h4>
 </div>
 <div id="modal_body" class="modal-body fileSelection1">
-<table id="example1" class="table table-bordered table-striped">
+<table id="example1" class="" >
 		<thead>
 			<tr>
 				<th>No</th>
@@ -135,11 +135,12 @@
 				<td><?= $isi['jml'];?></td>
 				<td><?= $isi['tgl_masuk'];?></td>
 				<td style="width:17%">
-				<button class="btn btn-primary" id="Select_File2" data_id="<?= $isi['buku_id'];?>">
-					<i class="fa fa-check"> </i> Pilih
-				</button>
-				<a href="<?= base_url('data/bukudetail/'.$isi['id_buku']);?>" target="_blank">
-					<button class="btn btn-success"><i class="fa fa-sign-in"></i> Detail</button></a>
+					<button class="btn btn-primary" id="Select_File2" data_id="<?= $isi['buku_id'];?>">
+						<i class="fa fa-check"> </i> Pilih
+					</button>
+					<a href="<?= base_url('data/bukudetail/'.$isi['id_buku']);?>" target="_blank">
+						<button class="btn btn-success"><i class="fa fa-sign-in"></i> Detail</button>
+					</a>
 				</td>
 			</tr>
 		<?php $no++;}?>
@@ -194,17 +195,16 @@
 		});
 	});
 	</script>
+	
+
+	
  <!--modal import -->
- <div class="modal fade" id="TableAnggota">
+ <div class="modal" id="TableAnggota">
 	<div class="modal-dialog">
 	<div class="modal-content">
-	<div class="modal-header">
-	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	<span aria-hidden="true">&times;</span></button>
-	<h4 class="modal-title">Add Anggota</h4>
-	</div>
+	<div class="modal-static">
 	<div id="modal_body" class="modal-body fileSelection1">
-	<table id="example3" class="table table-bordered table-striped">
+	<table id="example3" class="">
 		<thead>
 			<tr>
 				<th>No</th>
@@ -233,7 +233,7 @@
 					</button>
 				</td>
 			</tr>
-		<?php $no++;}}?>
+			<?php $no++;}}?>
 		</tbody>
 		</table>
 	</div>

@@ -1,26 +1,22 @@
 <?php if(! defined('BASEPATH')) exit('No direct script acess allowed');?>
-<div class="content-wrapper">
+<div class="">
   <section class="content-header">
     <h1>
-      <i class="fa fa-sign-out" style="color:green"> </i>  <?= $title_web;?>
+      <i class="fa fa-sign-out" style="color:red"> </i>  <?= $title_web;?>
     </h1>
-    <ol class="breadcrumb">
-			<li><a href="<?php echo base_url('dashboard');?>"><i class="fa fa-dashboard"></i>&nbsp; Dashboard</a></li>
-			<li class="active"><i class="fa fa-sign-out"></i>&nbsp;  <?= $title_web;?></li>
-    </ol>
   </section>
-  <section class="content">
+  <section class="">
 	<div class="row">
 	    <div class="col-md-12">
-	        <div class="box box-primary">
+	        <div class=" box-primary">
                 <div class="box-header with-border">
                 </div>
 			    <!-- /.box-header -->
 			    <div class="box-body">
 						<div class="row">
 							<div class="col-sm-5">
-								<table class="table table-striped">
-									<tr style="background:yellowgreen">
+								<table class="table">
+									<tr style="background:white">
 										<td colspan="3">Data Transaksi</td>
 									</tr>
 									<tr>
@@ -60,7 +56,7 @@
 											error_reporting(0);
 											if($user->nama != null)
 											{
-												echo '<table class="table table-striped">
+												echo '<table class="table">
 															<tr>
 																<td>Nama Anggota</td>
 																<td>:</td>
@@ -103,8 +99,8 @@
 								</table>
 							</div>
 							<div class="col-sm-7">
-								<table class="table table-striped">
-									<tr style="background:yellowgreen">
+								<table class="table">
+									<tr style="background:white">
 										<td colspan="3">Pinjam Buku</td>
 									</tr>
 									<tr>

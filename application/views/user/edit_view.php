@@ -1,7 +1,7 @@
 <?php if(! defined('BASEPATH')) exit('No direct script acess allowed');?>
   <section class="content-header">
     <h1>
-      <i class="fa fa-edit" style="color:green"> </i>  Update User - <?= $user->nama;?>
+      <i class="fa fa-edit" style="color:red"> </i>  Update User - <?= $user->nama;?>
     </h1>
   </section>
 	<div class="row">

@@ -218,17 +218,17 @@
 </div>
 
  <!--modal import -->
-<div class="modal fade" id="TableDenda">
+<div class="modal" id="TableDenda">
 <div class="modal-dialog" style="width:70%">
 <div class="modal-content">
-<div class="modal-header">
+<div class="modal-static">
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 <span aria-hidden="true">&times;</span></button>
 <h4 class="modal-title"> Pengembalian Buku</h4>
 </div>
 <div id="modal_body" class="modal-body fileSelection1">
 	<table class="table table-striped">
-		<tr style="background:yellowgreen">
+		<tr style="background:white">
 			<td colspan="3">Data Peminjaman Buku</td>
 		</tr>
 		<tr>

@@ -5,12 +5,14 @@
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
+      <center> <h1 class="header">PERPUSTAKAAN</h1> </center>
         <div class="pull-left image">
           <?php
             $d = $this->db->query("SELECT * FROM tbl_login WHERE id_login='$idbo'")->row();
             if(isset($d->foto)){
           ?>
           <br/>
+
           <img src="<?php echo base_url();?>assets_style/image/<?php echo $d->foto;?>" alt="#" c
           lass="user-image" style="border:2px solid #fff;height:auto;width:100%;"/>
           <?php }else{?>
@@ -137,11 +139,6 @@
 				<li class="<?php if($this->uri->uri_string() == 'user/edit/'.$this->uri->segment('3')){ echo 'active';}?>">
 					<a href="<?php echo base_url('user/edit/'.$this->session->userdata('ses_id'));?>" class="cursor">
 						<i class="fa fa-user"></i>  <span>Data Anggota</span>
-					</a>
-				</li>
-				<li class="">
-					<a href="<?php echo base_url('user/detail/'.$this->session->userdata('ses_id'));?>" target="_blank" class="cursor">
-						<i class="fa fa-print"></i> <span>Cetak kartu Anggota</span>
 					</a>
 				</li>
 			<?php }?>

@@ -105,13 +105,13 @@
 
 <!-- end modal -->
 <!--modal import -->
-<div class="modal" id="TableBuku">
-<div class="modal-dialog" style="width:150%;">
+<center>
+<div class="modal"  id="TableBuku" >
+<div class="modal-content" style="width:50%;">
 <div class="modal-content">
-<div class="modal-header">
-</div>
+<div class="modal-static">
 <div id="modal_body" class="modal-body fileSelection1">
-<table id="example1" class="" >
+<table id="example1" class="table table-striped " >
 		<thead>
 			<tr>
 				<th>No</th>
@@ -134,7 +134,7 @@
 				<td><?= $isi['thn_buku'];?></td>
 				<td><?= $isi['jml'];?></td>
 				<td><?= $isi['tgl_masuk'];?></td>
-				<td style="width:17%">
+				<td  style="width:20%;">
 					<button class="btn btn-primary" id="Select_File2" data_id="<?= $isi['buku_id'];?>">
 						<i class="fa fa-check"> </i> Pilih
 					</button>
@@ -155,6 +155,8 @@
 </div>
 <!-- /.modal-dialog -->
 </div>
+</div>
+</center>
 <!-- /.modal -->
 <script>
 	$(".fileSelection1 #Select_File2").click(function (e) {
@@ -200,11 +202,11 @@
 	
  <!--modal import -->
  <div class="modal" id="TableAnggota">
-	<div class="modal-dialog">
+	<div class="modal-dialog" style="width:70%">
 	<div class="modal-content">
 	<div class="modal-static">
 	<div id="modal_body" class="modal-body fileSelection1">
-	<table id="example3" class="">
+	<table id="example3" class="table table-striped ">
 		<thead>
 			<tr>
 				<th>No</th>
@@ -245,6 +247,7 @@
 	</div>
 	<!-- /.modal-dialog -->
 	</div>
+ 	</div>
 	<!-- /.modal -->
 	<script>
 	$(".fileSelection1 #Select_File1").click(function (e) {

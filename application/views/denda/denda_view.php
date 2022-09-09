@@ -1,7 +1,7 @@
 <?php if(! defined('BASEPATH')) exit('No direct script acess allowed');?>
   <section class="content-header">
     <h1>
-      <i class="fa fa-edit" style="color:green"> </i>  <?= $title_web;?>
+      <i class="fa fa-edit" style="color:red"> </i>  <?= $title_web;?>
     </h1>
   </section>
 	<?php if(!empty($this->session->flashdata())){ echo $this->session->flashdata('pesan');}?>

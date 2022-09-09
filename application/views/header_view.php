@@ -94,7 +94,7 @@
                       <i class="fa fa-edit"> </i> <?php echo $d->nama; ?></a>
                     </li>
                     <li>
-                      <a href="<?php echo base_url();?>login/logout">Sign out</a>
+                      <a href="<?php echo base_url();?>login/logout">Logout</a>
                     </li>
                   </ul>
                     </div>

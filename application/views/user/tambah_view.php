@@ -1,7 +1,7 @@
 <?php if(! defined('BASEPATH')) exit('No direct script acess allowed');?>
   <section class="content-header">
     <h1>
-      <i class="fa fa-plus" style="color:green"> </i>  Tambah User
+      <i class="fa fa-plus" style="color:red"> </i>  Tambah User
     </h1>
   </section>
 	<div class="row">

@@ -9,7 +9,7 @@
 <div class="">
   <section class="content-header">
     <h1>
-      <i class="fa fa-book" style="color:green"> </i>  <?= $title_web;?>
+      <i class="fa fa-book" style="color:red"> </i>  <?= $title_web;?>
     </h1>
   </section>
   <section class="">

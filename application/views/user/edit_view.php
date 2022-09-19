@@ -66,7 +66,6 @@
                                 <div class="form-group">
                                     <label>Pas Foto</label>
                                     <input type="file" accept="image/*" name="gambar">
-                                    
                                     <br/>
                                     <img src="<?= base_url('assets_style/image/'.$user->foto);?>" class="img-responsive" alt="#">
                                 </div>

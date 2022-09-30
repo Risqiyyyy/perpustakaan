@@ -57,17 +57,17 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label>Telepon</label>
-                                    <input id="uintTextBox" class="form-control" value="<?= $user->telepon;?>" name="telepon" required="required" placeholder="Contoh : 089618173609">
+                                    <input id="uintTextBox" class="form-control" value="<?= $user->telepon;?>" name="telepon" required="required" placeholder="Contoh : 0895621318877">
                                 </div>
                                 <div class="form-group">
                                     <label>E-mail</label>
-                                    <input type="email"  value="<?= $user->email;?>" readonly class="form-control" name="email" required="required" placeholder="Contoh : fauzan1892@codekop.com">
+                                    <input type="email"  value="<?= $user->email;?>" readonly class="form-control" name="email" required="required" placeholder="Contoh : nama@gmail.com">
                                 </div>
                                 <div class="form-group">
                                     <label>Pas Foto</label>
                                     <input type="file" accept="image/*" name="gambar">
                                     <br/>
-                                    <img src="<?= base_url('assets_style/image/'.$user->foto);?>" class="img-responsive" alt="#">
+                                    <img src="<?= base_url('assets_style/image/'.$user->foto);?>" class="img-responsive" width="250px" alt="#">
                                 </div>
                                 <div class="form-group">
                                     <label>Alamat</label>
